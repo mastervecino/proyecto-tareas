@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import ComponenteB from './components/pure/Componente B';
+import ComponenteA from './components/container/Componente A';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ComponenteB></ComponenteB>
+        <ComponenteA></ComponenteA>
       </header>
     </div>
   );

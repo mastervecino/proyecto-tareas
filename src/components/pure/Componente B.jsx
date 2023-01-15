@@ -11,7 +11,7 @@ const ComponenteB = ({ contact }) => {
             <p>Nombre: {contact.name}</p>
             <p>Apellido: {contact.lastname}</p>
             <p>Email: {contact.email}</p>
-            <p>{contact.connected ? 'On-Line' : 'Off-Line'}</p>
+            <p>{contact.connected ? 'Contacto en línea' : 'Contacto no disponible'}</p>
         </div>
     );
 };
